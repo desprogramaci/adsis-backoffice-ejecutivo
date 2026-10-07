@@ -25,6 +25,7 @@ El sistema se compone de una arquitectura modular y ligera contenerizada mediant
 * **Capa de Lógica y ORM:** SQLAlchemy para la gestión limpia de modelos relacionales, operaciones CRUD y mecanismos de *Fallback* de alta disponibilidad.
 * **Capa de Interfaz y Analítica:** Streamlit para la visualización ejecutiva en tiempo real, integración de gráficos interactivos (Plotly) y control reactivo de estados.
 * **Seguridad y Cifrado:** Anonimización de PII (Personally Identifiable Information) mediante hashing criptográfico (SHA-256) y cumplimiento estricto de los estándares de privacidad RGPD.
+  ```text
 ┌─────────────────────────────────────────────────────────┐
 │                   Docker Environment                    │
 │                                                         │
@@ -33,6 +34,7 @@ El sistema se compone de una arquitectura modular y ligera contenerizada mediant
 │  │  (Port 8501 / UI & IA)│                │ (Port 5432│ │
 │  └───────────────────────┘                └───────────┘ │
 └─────────────────────────────────────────────────────────┘
+ ```
 
 ---
 
@@ -66,6 +68,7 @@ Abre tu navegador e introduce la siguiente URL:
 
 
 📊 Estructura del Repositorio
+  ```text
 ├── dashboard.py           # Interfaz ejecutiva en Streamlit y lógica de componentes
 ├── database.py            # Modelos ORM, sesión y conexión a PostgreSQL[cite: 16]
 ├── main.py                # Middleware REST con FastAPI, endpoints y log de gobernanza[cite: 19]
@@ -73,6 +76,7 @@ Abre tu navegador e introduce la siguiente URL:
 ├── docker-compose.yml     # Orquestación de contenedores (App unificada + Base de datos)[cite: 17]
 ├── requirements.txt       # Dependencias del proyecto (FastAPI, Streamlit, SQLAlchemy, etc.)[cite: 20]
 └── README.md              # Documentación técnica y ejecutiva
+ ```
 
 🔒 Seguridad y Cumplimiento Normativo
 Principio de Mínimo Privilegio: Control de acceso basado en roles (RBAC) integrado en la arquitectura del backoffice.
