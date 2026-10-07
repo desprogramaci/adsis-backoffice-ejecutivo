@@ -25,7 +25,7 @@ El sistema se compone de una arquitectura modular y ligera contenerizada mediant
 * **Capa de Lógica y ORM:** SQLAlchemy para la gestión limpia de modelos relacionales, operaciones CRUD y mecanismos de *Fallback* de alta disponibilidad.
 * **Capa de Interfaz y Analítica:** Streamlit para la visualización ejecutiva en tiempo real, integración de gráficos interactivos (Plotly) y control reactivo de estados.
 * **Seguridad y Cifrado:** Anonimización de PII (Personally Identifiable Information) mediante hashing criptográfico (SHA-256) y cumplimiento estricto de los estándares de privacidad RGPD.
-  ```text
+```text
 ┌─────────────────────────────────────────────────────────┐
 │                   Docker Environment                    │
 │                                                         │
@@ -34,7 +34,6 @@ El sistema se compone de una arquitectura modular y ligera contenerizada mediant
 │  │  (Port 8501 / UI & IA)│                │ (Port 5432│ │
 │  └───────────────────────┘                └───────────┘ │
 └─────────────────────────────────────────────────────────┘
- ```
 
 ---
 
