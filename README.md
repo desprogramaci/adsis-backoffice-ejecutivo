@@ -35,6 +35,7 @@ El sistema se compone de una arquitectura modular y ligera contenerizada mediant
 │  └───────────────────────┘                └───────────┘ │
 └─────────────────────────────────────────────────────────┘
 
+ ```
 ---
 
 ## ✨ Características Principales
