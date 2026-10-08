@@ -40,7 +40,7 @@ El sistema se compone de una arquitectura modular y ligera contenerizada mediant
 
 ## ✨ Características Principales
 
-1. **Cuadro de Mando Ejecutivo (KPIs en Tiempo Real):** Monitorización de personas acompañadas, presupuesto público gestionado (18.90 M€, 81% del presupuesto oficial) y distribución provincial[cite: 11, 14].
+1. **Cuadro de Mando Ejecutivo (KPIs en Tiempo Real):** Monitorización de personas acompañadas, presupuesto público gestionado (18.90 M€, 81% del presupuesto oficial) y distribución provincial.
 2. **Simulador de Admisión Multicanal y Antiduplicidad:** Validación síncrona de expedientes que detecta de forma autónoma si una persona ya ha sido atendida en otra provincia, unificando el historial de manera transparente.
 3. **Live Stream - Agentes IA Inspectores:** Consola en tiempo real integrada en el panel que muestra la trazabilidad de auditoría, control de integridad y sincronización con repositorios documentales (M365 / SharePoint).
 4. **Gobierno del Dato & Open Data:** Funcionalidades de exportación masiva en CSV para auditorías externas y un visor estructurado en formato JSON listo para integraciones corporativas.
@@ -70,19 +70,19 @@ Abre tu navegador e introduce la siguiente URL:
 📊 Estructura del Repositorio
   ```text
 ├── dashboard.py           # Interfaz ejecutiva en Streamlit y lógica de componentes
-├── database.py            # Modelos ORM, sesión y conexión a PostgreSQL[cite: 16]
-├── main.py                # Middleware REST con FastAPI, endpoints y log de gobernanza[cite: 19]
-├── Dockerfile             # Definición de la imagen multinúcleo Python[cite: 18]
-├── docker-compose.yml     # Orquestación de contenedores (App unificada + Base de datos)[cite: 17]
-├── requirements.txt       # Dependencias del proyecto (FastAPI, Streamlit, SQLAlchemy, etc.)[cite: 20]
+├── database.py            # Modelos ORM, sesión y conexión a PostgreSQL
+├── main.py                # Middleware REST con FastAPI, endpoints y log de gobernanza
+├── Dockerfile             # Definición de la imagen multinúcleo Python
+├── docker-compose.yml     # Orquestación de contenedores (App unificada + Base de datos)
+├── requirements.txt       # Dependencias del proyecto (FastAPI, Streamlit, SQLAlchemy, etc.)
 └── README.md              # Documentación técnica y ejecutiva
  ```
 
 🔒 Seguridad y Cumplimiento Normativo
-Principio de Mínimo Privilegio: Control de acceso basado en roles (RBAC) integrado en la arquitectura del backoffice.
+**Principio de Mínimo Privilegio:** Control de acceso basado en roles (RBAC) integrado en la arquitectura del backoffice.
 
-Trazabilidad Inmutable: Registro de auditoría continuo supervisado por agentes de IA orientados a la detección de anomalías.
+**Trazabilidad Inmutable:** Registro de auditoría continuo supervisado por agentes de IA orientados a la detección de anomalías.
 
-Protección de Datos Sensibles: Tratamiento cifrado de identificadores personales conforme a la normativa vigente de protección de datos (RGPD).
+**Protección de Datos Sensibles:** Tratamiento cifrado de identificadores personales conforme a la normativa vigente de protección de datos (RGPD).
 
-Desarrollado para la excelencia en la gestión social y la innovación tecnológica.
+**Desarrollado para la excelencia en la gestión social y la innovación tecnológica.**
